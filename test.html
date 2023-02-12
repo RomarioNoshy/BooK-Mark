@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index_style.css">
+    <title>Book Mark</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="mt-4">Book Mark</h1>
+        <hr>
+        <input class="form-control" id="b_Name" type="text" placeholder="Name Website">
+        <br>
+        <br>
+        <input class="form-control" id="url_Website" type="url" placeholder="https://www.example.com">
+        <br>
+        <br>
+        <button class="btn btn-primary rounded-pill" onclick="addWebsite()">Submit</button>
+
+        <table class="table mt-5 text-center bg-dark text-white">
+            <thead>
+                <tr>
+                    <td>index</td>
+                    <td>Website Name</td>
+                    <td>Url</td>
+                    <td>Viste</td>
+                    <td>delat</td>
+                </tr>
+            </thead>
+            <tbody id="t_body">
+
+            </tbody>
+        </table>
+    </div>
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#0099ff" fill-opacity="1"
+            d="M0,224L34.3,192C68.6,160,137,96,206,90.7C274.3,85,343,139,411,186.7C480,235,549,277,617,250.7C685.7,224,754,128,823,101.3C891.4,75,960,117,1029,128C1097.1,139,1166,117,1234,133.3C1302.9,149,1371,203,1406,229.3L1440,256L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z">
+        </path>
+    </svg>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
